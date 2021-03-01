@@ -1,0 +1,36 @@
+.sidebar_container{
+  
+    width: 15vw;
+    background-color: #260d47;
+    color: whitesmoke;
+}
+.sidebar_title{
+  
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-weight: 100;
+    font-size: 1.4rem;
+}
+
+.sidebar_links{
+    margin-top: 3rem;
+}
+
+.sidebar_links > ul > li{
+    list-style: none;
+    margin-bottom: 1rem;
+   
+}
+.sidebar_links > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1.8rem;
+  
+}
+
+hr{
+    width: 50%;
+}
+

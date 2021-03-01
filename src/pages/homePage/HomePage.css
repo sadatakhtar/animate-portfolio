@@ -1,0 +1,9 @@
+.home_main_wrapper{
+    height: 90vh;
+    display: flex;
+   
+}
+
+.home_main{
+    width: 100%;
+}

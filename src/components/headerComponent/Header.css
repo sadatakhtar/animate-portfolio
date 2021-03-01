@@ -1,0 +1,56 @@
+.header_container{
+    
+    height: 17vh;
+    width: 100%;
+    background-color: #462D66;
+    display: flex;
+}
+
+.header_logo{
+    width: 10%;
+}
+.header_logo > img {
+    border-radius: 200px;
+    margin-top: 10px;
+}
+
+.header_title{
+    width: 90%;
+    height: 100%;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+}
+
+.header_title1 {
+    width: 43%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+  
+ 
+
+}
+.header_title2 {
+    width: 60%;
+    height: 40%;
+    margin: auto;
+    font-weight: 400;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header_title3 {
+    width: 63%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+   
+}
