@@ -20,9 +20,12 @@ function SideBar() {
           
             >
                 <ul>
+                <motion.li
+                    whileHover={{ scale: 1.5 , textShadow: "0px 0px 8px rgb(255,255,255)", originX: 0}}
+                    ><Link to="/" style={{textDecoration: 'none', color: 'whitesmoke'}}>Home</Link></motion.li>
                     <motion.li
                     whileHover={{ scale: 1.5 , textShadow: "0px 0px 8px rgb(255,255,255)", originX: 0}}
-                    ><Link to="/home" style={{textDecoration: 'none', color: 'whitesmoke'}}>Projects</Link></motion.li>
+                    ><Link to="/projects" style={{textDecoration: 'none', color: 'whitesmoke'}}>Projects</Link></motion.li>
                     <motion.li
                     whileHover={{ scale: 1.5, textShadow: "0px 0px 8px rgb(255,255,255)" , originX: 0}}
                     
