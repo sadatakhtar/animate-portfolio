@@ -18,7 +18,7 @@ function HomeBody() {
                  initial={{ rotateZ: 0}}
                  animate={{ rotateZ: 720}}
                  transition={{ delay: 4}}/>
-                <h2>Junior Developer at CodeYourFuture</h2>
+                <h2>Developer at CodeYourFuture</h2>
                 <h5>Passionate about coding</h5>
 
                 </div>
