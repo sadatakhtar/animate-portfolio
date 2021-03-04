@@ -16,7 +16,7 @@ function SideBar() {
             <motion.div className="sidebar_links"
             initial={{ x: -250}}
             animate={{ x: 0}}
-            transition={{delay: 1.5, type: 'spring', stiffness: 120}}
+            transition={{duration: 2}}
           
             >
                 <ul>

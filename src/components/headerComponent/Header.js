@@ -9,7 +9,7 @@ function Header() {
             <motion.div className="header_title"
               initial={{ y: -250}}
               animate={{ y: 0}}
-              transition={{ type: 'spring', stiffness: 120}}
+              transition={{ duration: 2}}
             >
                 <div className="header_title1">
                     <h4>Sadat Akhtar's</h4>

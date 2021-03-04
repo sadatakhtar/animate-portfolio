@@ -12,9 +12,9 @@ function ProjectsBody() {
             <div className="projects_main">
                 
                     <motion.h1
-                    initial={{ x: 2000}}
-                    animate={{ x: 0}}
-                    transition={{ delay: 3, duration: 1.5}}
+                    initial={{ opacity: 0}}
+                    animate={{ opacity: 1}}
+                    transition={{ delay: 3, duration: 2}}
                     >PROJECTS</motion.h1>
                 
                 <div className="projects_thumbnails"
@@ -22,44 +22,67 @@ function ProjectsBody() {
         
                 >
                     <div className="div1">
+                    <motion.h3
+                    initial={{ opacity: 0}}
+                    animate={{ opacity: 1}}
+                    transition={{delay: 5, duration: 2}}
+                    >Netflix clone</motion.h3>
                     <motion.div
                     whileHover={{ scale: 1.1, duration: 5}}
 
                     >
                         <motion.img src={netflixImg} alt="netflix logo" width="300px" height="200px" style={{ paddingRight: 20, paddingBottom: 20}}
-                        animate={{ rotateZ: 360 }}
-                        transition={{ delay: 3}}
+                        initial={{ opacity: 0}}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 3, duration: 3}}
                         
                         />
                     </motion.div>
-
+                 
+                    <motion.h3
+                    initial={{ opacity: 0}}
+                    animate={{ opacity: 1}}
+                    transition={{delay: 5, duration: 2}}
+                    >Q&A App</motion.h3>
                     <motion.div
                     whileHover={{ scale: 1.1}}
                     >
                         <motion.img src={qaImg} alt="netflix logo" width="300px" height="200px"
-                        animate={{ rotateZ: 360 }}
-                        transition={{ delay: 3.5}}
+                         initial={{ opacity: 0}}
+                         animate={{ opacity: 1 }}
+                         transition={{ delay: 3, duration: 3}}
                         />
                     </motion.div>
 
                     </div>
                   
                     <div className="div2">
+                    <motion.h3
+                    initial={{ opacity: 0}}
+                    animate={{ opacity: 1}}
+                    transition={{delay: 5, duration: 2}}
+                    >Student Tracker</motion.h3>
                     <motion.div
                     whileHover={{ scale: 1.1}}
                     >
                         <motion.img src={studentImg} alt="netflix logo" width="300px" height="200px" style={{ paddingRight: 20, paddingBottom: 20}}
-                        animate={{ rotateZ: 360 }}
-                        transition={{ delay: 4}}
+                        initial={{ opacity: 0}}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 3, duration: 3}}
                         />
                     </motion.div>
-
+                    <motion.h3
+                    initial={{ opacity: 0}}
+                    animate={{ opacity: 1}}
+                    transition={{delay: 5, duration: 2}}
+                    >TV Shows App</motion.h3>
                     <motion.div
                     whileHover={{ scale: 1.1}}
                     >
                         <motion.img src={tvImg} alt="netflix logo" width="300px" height="200px"
-                        animate={{ rotateZ: 360 }}
-                        transition={{ delay: 4.5}}
+                      initial={{ opacity: 0}}
+                      animate={{ opacity: 1 }}
+                      transition={{ delay: 3, duration: 3}}
                         />
                     </motion.div>
 

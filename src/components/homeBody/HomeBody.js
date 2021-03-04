@@ -17,7 +17,7 @@ function HomeBody() {
                 <motion.img id="pic" src={centerPic} alt="center pic" width="100px" height="100px"
                  initial={{ rotateZ: 0}}
                  animate={{ rotateZ: 720}}
-                 transition={{ delay: 4}}/>
+                 transition={{ delay: 4, duration: 2}}/>
                 <h2>Developer at CodeYourFuture</h2>
                 <h5>Passionate about coding</h5>
 
