@@ -18,7 +18,7 @@ function NetflixBody() {
                    initial={{ opacity: 0}}
                    animate={{ opacity: 1}}
                    transition={{ delay: 2, duration: 2}}
-                src={netflixImg} style={{ width: 300, height: 200}}/> 
+                src={netflixImg} style={{ width: 330, height: 200}}/> 
               </Link>
               <motion.h4
               initial={{opacity:0}}

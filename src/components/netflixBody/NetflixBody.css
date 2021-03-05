@@ -1,7 +1,7 @@
 .net_container{
     
     background-color: #afb2d1;
-    height: 68vh;
+    height: 70.5vh;
     padding-top: 3rem;
    
 }
@@ -15,6 +15,8 @@
     color: #092346;
     margin-top: 0;
     font-weight: 300;
+    font-size: 1.5rem;
+   
 
 }
 .net_img > h1{
