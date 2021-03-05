@@ -2,7 +2,7 @@
 
     width: 100%;
     height: 70vh;
-    background-color: #3f1f68;
+    background-color: #afb2d1;
 }
 
 .projects_thumbnails{
@@ -22,14 +22,14 @@
 
 .projects_main > h1 {
     text-align: center;
-    color: whitesmoke;
+    color: rgb(28, 25, 54);
     font-size: 3rem;
     font-weight: 300;
 }
 
 h3{
     text-align: center;
-    color: rgb(167, 161, 161);
+    color: rgb(28, 25, 54);
     font-weight: 300;
     font-size: 1.2rem;
 }

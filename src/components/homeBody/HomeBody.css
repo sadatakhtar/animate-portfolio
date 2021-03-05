@@ -1,19 +1,20 @@
 .homebody_container{
     width: 100%;
     height: 73vh;
-    background-color: #3f1f68;
+    background-color: #afb2d1;
 }
 
 .homebody_main_main{
    
     height: 50vh;
-    color: whitesmoke;
+    color: #092346;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
 } 
+
 .homebody_main_main > h2{
     font-size: 2.5rem;
     margin-bottom: 0;
@@ -29,8 +30,13 @@
 .homebody_icons{
     height: 2vh;
     width: 70%;
+    border-radius: 200;
     margin-top: 0;
     margin: auto;
     display: flex;
     justify-content: space-evenly
+}
+
+.homebody_skills > h1{
+    font-weight: 300;
 }

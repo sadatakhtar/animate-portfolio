@@ -21,6 +21,14 @@ function HomeBody() {
                 <h2>Developer at CodeYourFuture</h2>
                 <h5>Passionate about coding</h5>
 
+                <motion.div className="homebody_skills"
+                initial={{ opacity: 0}}
+                animate={{ opacity: 1}}
+                transition={{ delay: 5, duration: 2}}
+                >
+                <h1>JavaScript | HTML | CSS | Node | React | PostgreSQL | CCNA </h1>
+                </motion.div>
+
                 </div>
                
             </div>
@@ -34,10 +42,10 @@ function HomeBody() {
                 <img src={reactPic} alt="git pic" width="150px" height="150px"/>
                 <img src={nodePic} alt="git pic" width="150px" height="150px"/>
                 <img src={postgres} alt="postgres pic" width="150px" height="150px"/>
-              
 
             </motion.div>
-
+          
+           
            
 
             

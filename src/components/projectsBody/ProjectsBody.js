@@ -5,6 +5,7 @@ import qaImg from '../../assets/login1.png'
 import studentImg from '../../assets/student-tracker.png'
 import tvImg from '../../assets/tv-.jpeg'
 import { motion } from  'framer-motion'
+import { Link } from 'react-router-dom'
 
 function ProjectsBody() {
     return (
@@ -31,13 +32,14 @@ function ProjectsBody() {
                     whileHover={{ scale: 1.1, duration: 5}}
 
                     >
-                        <motion.img src={netflixImg} alt="netflix logo" width="300px" height="200px" style={{ paddingRight: 20, paddingBottom: 20}}
+                       <Link to="/netflix" > <motion.img src={netflixImg} alt="netflix logo" width="300px" height="200px" style={{ paddingRight: 20, paddingBottom: 20}}
                         initial={{ opacity: 0}}
                         animate={{ opacity: 1 }}
                         transition={{ delay: 3, duration: 3}}
                         
-                        />
+                        /></Link>
                     </motion.div>
+                    
                  
                     <motion.h3
                     initial={{ opacity: 0}}
