@@ -9,7 +9,7 @@ function NetflixBody() {
         <div className="net_container">
             <div className="net_img">
                 <motion.h1
-                   initial={{ x: 2000}}
+                   initial={{ x: -2000}}
                    animate={{ x: 0}}
                    transition={{ delay: 1, duration: 2}}
                 >NETFLIX CLONE</motion.h1>
@@ -28,7 +28,7 @@ function NetflixBody() {
              
             </div>
             <motion.div className="net_description"
-               initial={{ x: 2000}}
+               initial={{ x: -2000}}
                animate={{ x: 0}}
                transition={{ delay: 2, duration: 2}}
             >
@@ -37,8 +37,8 @@ function NetflixBody() {
 
             </motion.div>
             <motion.div className="net_tech"
-               initial={{ x: -2000}}
-               animate={{ x: 0}}
+               initial={{ x: -1500, opacity: 0}}
+               animate={{ x: 0, opacity: 1}}
                transition={{ delay: 2, duration: 2}}
             >
                 <h2>Technologies</h2>
