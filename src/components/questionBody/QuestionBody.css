@@ -1,0 +1,52 @@
+.question_container{
+    
+    background-color: #afb2d1;
+    height: 72vh;
+  
+   
+}
+.question_img{
+  
+    width: 18%;
+    margin: auto;
+}
+.question_img > h4{
+    text-align: center;
+    color: #092346;
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 1.5rem;
+   
+
+}
+.question_img > h1{
+    
+    text-align: center;
+    color: #092346;
+    font-weight: 300;
+    font-size: 3rem;
+   
+}
+.question_description{
+   
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    color: #092346;
+
+}
+.question_description > h2, .question_tech > h2 {
+    font-weight: 300;
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+.question_tech{
+    color: #092346;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.question_tech > ul >li{
+    list-style: none;
+    margin-right: 2rem;
+}

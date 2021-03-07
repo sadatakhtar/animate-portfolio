@@ -1,0 +1,9 @@
+.student_main_wrapper{
+    height: 90vh;
+  
+    display: flex;
+}
+
+.student_main{
+    width: 100%;
+}

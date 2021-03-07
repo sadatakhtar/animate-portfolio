@@ -1,0 +1,52 @@
+.student_container{
+    
+    background-color: #afb2d1;
+    height: 72vh;
+  
+   
+}
+.student_img{
+  
+    width: 18%;
+    margin: auto;
+}
+.student_img > h4{
+    text-align: center;
+    color: #092346;
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 1.5rem;
+   
+
+}
+.student_img > h1{
+    
+    text-align: center;
+    color: #092346;
+    font-weight: 300;
+    font-size: 3rem;
+   
+}
+.student_description{
+   
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    color: #092346;
+
+}
+.student_description > h2, .student_tech > h2 {
+    font-weight: 300;
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+.student_tech{
+    color: #092346;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.student_tech > ul >li{
+    list-style: none;
+    margin-right: 2rem;
+}
