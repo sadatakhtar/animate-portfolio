@@ -12,7 +12,7 @@ function QuestionBody() {
                    initial={{ x: -2000}}
                    animate={{ x: 0}}
                    transition={{ delay: 1, duration: 2}}
-                >QUESTION & ANSWERS APP</motion.h1>
+                >Q&A </motion.h1>
               <Link to={{ pathname: "https://question-mark.netlify.app/"}} target="_blank">
                 <motion.img 
                    initial={{ opacity: 0}}
