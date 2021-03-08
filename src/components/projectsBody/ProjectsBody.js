@@ -50,7 +50,7 @@ function ProjectsBody() {
                     whileHover={{ scale: 1.1}}
                     >
                          <Link to="/question" >
-                        <motion.img src={qaImg} alt="netflix logo" width="300px" height="200px"
+                        <motion.img src={qaImg} alt="questions logo" width="300px" height="200px"
                          initial={{ opacity: 0}}
                          animate={{ opacity: 1 }}
                          transition={{ delay: 3, duration: 3}}
@@ -69,7 +69,7 @@ function ProjectsBody() {
                     whileHover={{ scale: 1.1}}
                     >
                          <Link to="/student" >
-                        <motion.img src={studentImg} alt="netflix logo" width="300px" height="200px" style={{ paddingRight: 20, paddingBottom: 20}}
+                        <motion.img src={studentImg} alt="tracker logo" width="300px" height="200px" style={{ paddingRight: 20, paddingBottom: 20}}
                         initial={{ opacity: 0}}
                         animate={{ opacity: 1 }}
                         transition={{ delay: 3, duration: 3}}
@@ -83,11 +83,12 @@ function ProjectsBody() {
                     <motion.div
                     whileHover={{ scale: 1.1}}
                     >
-                        <motion.img src={tvImg} alt="netflix logo" width="300px" height="200px"
+                        <Link to="/tvshow" >
+                        <motion.img src={tvImg} alt="tvshows logo" width="300px" height="200px"
                       initial={{ opacity: 0}}
                       animate={{ opacity: 1 }}
                       transition={{ delay: 3, duration: 3}}
-                        />
+                        /></Link>
                     </motion.div>
 
                     </div>

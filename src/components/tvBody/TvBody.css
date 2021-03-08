@@ -1,0 +1,52 @@
+.tv_container{
+    
+    background-color: #afb2d1;
+    height: 71.7vh;
+   
+   
+}
+.tv_img{
+  
+    width: 18%;
+    margin: auto;
+}
+.tv_img > h4{
+    text-align: center;
+    color: #092346;
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 1.5rem;
+   
+
+}
+.tv_img > h1{
+    
+    text-align: center;
+    color: #092346;
+    font-weight: 300;
+    font-size: 3rem;
+   
+}
+.tv_description{
+   
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    color: #092346;
+
+}
+.tv_description > h2, .tv_tech > h2 {
+    font-weight: 300;
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+.tv_tech{
+    color: #092346;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.tv_tech > ul >li{
+    list-style: none;
+    margin-right: 2rem;
+}

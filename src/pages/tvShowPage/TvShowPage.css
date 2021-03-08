@@ -1,0 +1,9 @@
+.tv_main_wrapper{
+    height: 90vh;
+  
+    display: flex;
+}
+
+.tv_main{
+    width: 100%;
+}

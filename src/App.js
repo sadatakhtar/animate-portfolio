@@ -5,6 +5,7 @@ import Projects from './pages/projectsPage/Projects';
 import NetflixPage from './pages/netflixPage/NetflixPage';
 import StudentTrackerPage from './pages/studentTrackerPage/StudentTrackerPage'
 import QuestionMarkPage from './pages/questionMarkPage/QuestionMarkPage';
+import TvShowPage from './pages/tvShowPage/TvShowPage';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
          <Route path="/netflix" component={NetflixPage} />
          <Route path="/student" component={StudentTrackerPage} />
          <Route path="/question" component={QuestionMarkPage} />
+         <Route path="/tvshow" component={TvShowPage} />
 
       </Switch>
 
